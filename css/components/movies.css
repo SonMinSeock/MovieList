@@ -1,0 +1,25 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#movies {
+  width: 50%;
+}
+
+#movies img {
+  width: 95%;
+  height: 100%;
+  border-radius: 8px;
+}
+
+#movies h3 {
+  font-size: 20px;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.wrapper h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}

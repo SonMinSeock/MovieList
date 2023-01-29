@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="kr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://kenwheeler.github.io/slick/slick/slick.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="http://kenwheeler.github.io/slick/slick/slick-theme.css"
+    />
+    <title>Hello! from HTML</title>
+  </head>
+  <body>
+    <main>
+      <div id="clock">
+        <h2 id="clock__text">00:00</h2>
+        <div id="weather-container">
+          <span class="temp"></span>
+          <img class="weather" src="" />
+        </div>
+      </div>
+      <form id="login-form" class="hidden">
+        <input
+          required
+          maxlength="15"
+          type="text"
+          placeholder="이름을 입력해주세요"
+        />
+        <input type="submit" value="구독하기" />
+      </form>
+      <h1 id="greeting" class="hidden"></h1>
+      <form id="todo-form" class="hidden">
+        <input
+          type="text"
+          placeholder="보고싶을 영화 리스트를 입력해주세요."
+          required
+        />
+      </form>
+      <div id="todo-list-wrapper">
+        <ul id="todo-list" class="hidden"></ul>
+      </div>
+
+      <div id="modal-box">
+        <div id="modal">
+          <span>Login Success</span>
+          <button>Close</button>
+        </div>
+      </div>
+      <div class="wrapper">
+        <h2>Top 12 Movies</h2>
+        <div id="movies" class="multiple-items"></div>
+      </div>
+    </main>
+
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      src="http://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://kenwheeler.github.io/slick/slick/slick.min.js"
+    ></script>
+    <script src="js/api.js"></script>
+    <script src="js/movie.js"></script>
+    <script src="js/greetings.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+  </body>
+</html>
